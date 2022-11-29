@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """Returns to-do list information for a given employee ID."""
+import json
 import requests
 import sys
-import json
+
 
 if __name__ == "__main__":
     api_url = "https://jsonplaceholder.typicode.com/"
