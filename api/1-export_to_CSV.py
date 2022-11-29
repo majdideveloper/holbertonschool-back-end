@@ -13,4 +13,4 @@ if __name__ == "__main__":
 
     f = open(nameFile, "x")
     f.write([print("{},{},{},{}".format(str(user.get("id")), str(
-        user.get("username")), str(task.get("completed")), str(task.get("title")))) for task in todos ])
+        user.get("username")), str(task.get("completed")), str(task.get("title")))) for task in todos])
