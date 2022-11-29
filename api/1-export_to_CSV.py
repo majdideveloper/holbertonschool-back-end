@@ -12,5 +12,5 @@ if __name__ == "__main__":
     nameFile = eval(sys.argv[1]) + ".csv"
 
     f = open(nameFile, "x")
-    f.write([print("{},{},{},{}".format(str(user.get("id")), str(
+    f.write([print("{},{},{},{}\n".format(str(user.get("id")), str(
         user.get("username")), str(task.get("completed")), str(task.get("title")))) for task in todos])
