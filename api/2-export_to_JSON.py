@@ -20,4 +20,3 @@ if __name__ == "__main__":
     with open(file_json, "w") as f:
 
         json.dump(dicti, f)
-        
